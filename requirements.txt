@@ -5,3 +5,7 @@ xgboost
 scipy
 sklearn
 seaborn
+pyproj
+pyshp
+# basemap
+# pip install --user git+https://github.com/matplotlib/basemap.git
