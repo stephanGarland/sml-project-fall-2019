@@ -10,6 +10,12 @@ pyshp
 wurlitzer
 cmake
 seaborn
-MulticoreTSNE
+# Install the below as desired, note that tsnecuda needs a CUDA-capable GPU
+# Replace cuda101 with whatever CUDA version you're using; i.e. 10.1 is cuda101
+
+# MulticoreTSNE
+# conda install tsnecuda cuda101 -c cannylab
+
+# Install if desired to plot maps using pip as detailed
 # basemap
 # pip install --user git+https://github.com/matplotlib/basemap.git
